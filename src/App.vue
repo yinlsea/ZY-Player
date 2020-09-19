@@ -6,6 +6,7 @@
       <Film v-show="view === 'Film'" />
       <Play v-show="view === 'Play'" />
       <Star v-show="view === 'Star'" />
+      <History v-show="view === 'History'" />
       <Setting v-show="view === 'Setting'" />
     </div>
     <transition name="slide">
@@ -14,8 +15,12 @@
     <transition name="slide">
       <Share v-if="share.show"/>
     </transition>
+    <transition name="slide">
+      <EditSites v-if="editSites.show"/>
+    </transition>
   </div>
 </template>
+
 <script>
 export default {
   name: 'App',
@@ -34,18 +39,24 @@ export default {
     share () {
       return this.$store.getters.getShare
     },
-    theme () {
-      return this.$store.getters.getTheme
+    setting () {
+      return this.$store.getters.getSetting
+    },
+    editSites () {
+      return this.$store.getters.getEditSites
     }
   },
   watch: {
-    theme () {
-      this.changeTheme()
+    setting: {
+      handler () {
+        this.changeSetting()
+      },
+      deep: true
     }
   },
   methods: {
-    changeTheme () {
-      this.appTheme = `theme-${this.theme}`
+    changeSetting () {
+      this.appTheme = `theme-${this.setting.theme}`
     }
   }
 }
@@ -55,7 +66,7 @@ export default {
 @import './assets/scss/theme.scss';
 html, body, #app{
   height: 100%;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 #app {
   font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', SimSun, sans-serif;

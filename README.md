@@ -22,46 +22,71 @@
 <p>
 
 
-## ZY Player 资源播放器
+<h1 align="center">ZY Player 资源播放器</h1>
 
-1. 全平台支持. windows, mac, linux.
-2. 12个视频源. 未来更新更多的视频源.
-3. 新增历史播放记录, 并记录播放进度.
-4. 新增分享功能. 一键分享海报图片.
-5. 新增精简模式. 支持修改透明度.
-6. 全新布局配色.
-7. 新增多语言.
-8. 下载功能 (最大资源网和OK资源网支持下载.)
-9. 更详细的视频分类
-10. 收藏夹同步更新视频追剧.(手动更新)
-11. 后台自动更新
 
-觉得软件不错的, 点击右上角 star 收藏关注一波呀~
-<img height="30" src="https://i.loli.net/2020/05/09/cNnvGobekWEqfjZ.jpg">
 
-#### 下载:
+### ✨特性
 
-1. [Github -- 官方下载](https://github.com/Hunlongyu/ZY-Player/releases)
+- 🍕 全平台支持. Windows, Mac, Linux
+- 🍔 视频源支持自定义, 支持导入, 导出
+- 🍟 支持海报模式和列表模式浏览资源
+- 🌭 播放历史, 自动跳转历史进度
+- 🍿 收藏夹支持导入,导出, 支持同步追剧
+- 🥙 支持精简模式, 摸鱼划水
+- 🥪 一键搜索所有资源, 支持历史搜索记录
+- 🌮 导出资源下载链接
+- 🍣 支持第三方播放器播放
+- 🍤 显示豆瓣评分
 
-2. [蓝奏云 -- 快速下载](https://www.lanzous.com/b04s6a3re) 密码:95px
+### 🌴 下载
 
-#### 截图: 
-1. 浏览 ⇣ ↓
-![01浏览.png](https://i.loli.net/2020/05/18/MshDLnXq2CTpoBy.png)
-2. 搜索 ⇣ ↓
-![02搜索.png](https://i.loli.net/2020/05/18/kAKQpLeRJUID5d6.png)
-3. 详情 ⇣ ↓
-![03详情.png](https://i.loli.net/2020/05/18/s7gUj6unEfyYb4Z.png)
-4. 播放 ⇣ ↓
-![04播放.png](https://i.loli.net/2020/05/18/WqgnOw3mHd6e5uU.png)
-5. 收藏 ⇣ ↓
-![05收藏.png](https://i.loli.net/2020/05/18/bhIgeGMTPWmrdYi.png)
-6. 白色主题皮肤 ⇣ ↓
-![06白色.png](https://i.loli.net/2020/05/18/UgiVZ89dhkuxDBI.png)
-7. 绿色主题皮肤 ⇣ ↓
-![07绿色.png](https://i.loli.net/2020/05/18/4d2UnFRECm7vyJQ.png)
-8. 粉色色主题皮肤 ⇣ ↓
-![08粉色.png](https://i.loli.net/2020/05/18/PLlEfzd8mSC9vMW.png)
+- 🍓 [Github -- 官方下载](https://github.com/Hunlongyu/ZY-Player/releases)
+- 🍉 [蓝奏云 -- 快速下载](https://www.lanzoux.com/b04s6a3re) 密码:95px
+- 🍒 适用于32位操作系统的x86软件,在蓝奏云网盘里, 后缀名: ZY Player * 32位.exe
 
-### 重要: 
-所有资源来自网上, 该软件不参与任何制作, 上传, 储存, 下载等内容. 该软件仅供学习参考, 请于安装后24小时内删除.
+### 🚀 快捷键
+
+播放窗口 和 Mini窗口
+
+|    快捷键     | 说明                         |  快捷键   | 说明              |
+| :-----------: | ---------------------------- | :-------: | ----------------- |
+| `Alt + Space` | 聚焦或取消聚焦（全局快捷键） |           |                   |
+|      `→`      | 快进 5 秒                    |    `←`    | 快退 5 秒         |
+|      `↑`      | 音量调高                     |    `↓`    | 音量调低          |
+|      `m`      | 静音                         |    `t`    | 置顶或退出置顶    |
+|      `f`      | 进入或退出全屏               |   `esc`   | 退出全屏          |
+|   `Alt + →`   | 下一集                       | `Alt + ←` | 上一集            |
+|   `Alt + ↑`   | 透明度调高                   | `Alt + ↓` | 透明度调低        |
+|    `home`     | 跳到视频开始位置             |   `end`   | 跳到视频结束位置  |
+|    `pgUp`     | 播放倍速加快 0.25            | `pgDown`  | 播放倍速减慢 0.25 |
+|   `Alt + m`   | 进入或退出 Mini 模式         |  `space`  | 播放或暂停        |
+
+### 🎨 截图
+
+|                      🥼 浏览 (海报模式)                       |                      🧥 浏览 (列表模式)                       |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![海报.png](https://i.loli.net/2020/09/02/ZAfGjcqLxoslpWQ.png) | ![列表.png](https://i.loli.net/2020/09/02/jrEkX3yiOGPFazs.png) |
+|                            👔 搜索                            |                            👕 详情                            |
+| ![搜索.png](https://i.loli.net/2020/09/02/HdMos8gent4kTmW.png) | ![详情.png](https://i.loli.net/2020/09/02/S2Np4GAmBz8Rj6P.png) |
+|                      👖 播放 (普通模式)                       |                      🩳 播放 (精简模式)                       |
+| ![播放.png](https://i.loli.net/2020/09/02/RLBoaZyuS2DCkJ3.png) | ![精简.png](https://i.loli.net/2020/09/02/f21SNdiVFHmeh6b.png) |
+|                          🧣 历史记录                          |                           🧤 收藏夹                           |
+| ![历史.png](https://i.loli.net/2020/09/02/ZhNXatyJi9Dvr3d.png) | ![收藏.png](https://i.loli.net/2020/09/02/wy4H76m2sQ8YdKi.png) |
+|                          👗 白色主题                          |                          🥻 黑色主题                          |
+| ![白色.png](https://i.loli.net/2020/09/02/gslBIYvTaSZRwfU.png) | ![黑色.png](https://i.loli.net/2020/09/02/dMmETUq1ACuGsI6.png) |
+|                          👘 绿色主题                          |                          👚 粉色主题                          |
+| ![绿色.png](https://i.loli.net/2020/09/02/nxJF71b3qusUclZ.png) | ![粉色.png](https://i.loli.net/2020/09/02/8rGL45p6kSqRCOz.png) |
+
+### 🍭 开发者
+
+|          [Hunlongyu](https://github.com/Hunlongyu)           |           [cuiocean](https://github.com/cuiocean)            |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img width="120" src="https://avatars2.githubusercontent.com/u/15273630?s=460&u=48cf3299e2a842c0252233d8be42ef4c5d792138&v=4"/> | <img width="120" src="https://avatars0.githubusercontent.com/u/5760235?s=460&u=9d969dd8d83f069ce7ebd60516770c93ac07a330&v=4" /> |
+|                            💻 🎨 🐛                             |                             💻 🐛                              |
+
+
+
+### 🧧 赞助
+
+[![LATOPAY](https://latopay.com/w/lt-bg-2062.png)](https://latopay.com/@Hunlongyu)
